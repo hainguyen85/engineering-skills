@@ -1,0 +1,8 @@
+# Cấu hình cá nhân của Claude Code
+.claude/settings.local.json
+
+# File tạm khi thử skill
+.scratch/
+
+# Symlink do skills CLI tạo khi cài hoặc cập nhật
+.claude/skills/
