@@ -13,11 +13,11 @@ Repo này dùng để tra cứu và hỏi đáp về bộ skill [mattpocock/skil
 - `docs/matt-pocock-skills.md`: tài liệu tham chiếu, gồm kiến trúc, từng skill và nhật ký cập nhật (mục 9).
 - `docs/matt-pocock-skills-onboarding.md`: hướng dẫn nhập môn cho dev, gồm các case study.
 - `docs/matt-pocock-autonomous-loops.md`: chạy vòng lặp tự động bằng `/implement-spec`.
-- `case-studies/`: tình huống thực tế người dùng đã gặp. Xem `case-studies/README.md`.
+- `case-studies/NN-*.md`: mỗi file một tình huống (chuỗi skill, prompt mẫu, ví dụ), cuối file là mục "Thực tế đã gặp". Danh sách trong `case-studies/README.md`.
 
 ## Cách trả lời
 
 - Trả lời bằng tiếng Việt. Giữ nguyên thuật ngữ gốc tiếng Anh (frontier, seam, tracer bullet…).
-- Khi người dùng kể một tình huống thực tế, đề xuất ghép skill theo flow trong `ask-matt`. Nói rõ khi không có skill nào phủ tình huống đó.
-- Sau khi trả lời một tình huống thực tế, đề nghị lưu lại vào `case-studies/` theo mẫu trong `case-studies/README.md`.
+- Khi người dùng kể một tình huống thực tế, tìm file case study khớp nhất và trả lời dựa trên nó cùng `SKILL.md` liên quan. Không có file khớp thì ghép skill theo flow trong `ask-matt`, và nói rõ khi không có skill nào phủ tình huống đó.
+- Sau khi trả lời, đề nghị ghi kết quả vào mục "Thực tế đã gặp" của file khớp, hoặc tạo file tình huống mới, theo hướng dẫn trong `case-studies/README.md`.
 - Không ghi tên khách hàng, tên công ty, mã nguồn nội bộ hay thông tin bí mật vào repo. Viết case study ở dạng tổng quát.

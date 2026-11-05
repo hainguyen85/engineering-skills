@@ -696,6 +696,7 @@ Một ticket local trông như sau (theo template của `to-tickets`):
 - Tài liệu nhập môn: thêm mục 9 **Case study: nhận dự án không có tài liệu**, gồm 5 loại tài liệu bộ skill đọc và các bước rút chúng ra từ code.
 - Tài liệu nhập môn: thêm mục 10 **Case study: xây sản phẩm mới từ ý tưởng** (`/wayfinder` → `/to-spec` → main flow), gồm 4 loại decision ticket, tài liệu sinh ra và phần bộ skill không làm thay.
 - Hướng dẫn vòng lặp tự động: bỏ phương pháp script PowerShell bọc ngoài, chỉ giữ `/implement-spec`.
+- Tài liệu nhập môn: thêm mục 11 **Bản đồ tình huống** (14 tình huống), chi tiết từng tình huống trong `case-studies/` (repo `matt-pocock-skills`).
 
 ### 2026-11-04: bổ sung tài liệu (bộ skill không đổi)
 

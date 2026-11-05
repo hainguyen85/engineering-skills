@@ -499,7 +499,36 @@ git init + setup → (tài liệu tham khảo vào docs/references/)
 
 ---
 
-## 11. Đi tiếp
+## 11. Bản đồ tình huống
+
+Gặp tình huống nào thì tra chuỗi skill ở đây. Chi tiết (các bước, prompt mẫu, ví dụ, lưu ý, kết quả thực tế đã gặp) nằm trong thư mục [`case-studies/`](../case-studies/README.md), mỗi tình huống một file.
+
+| # | Tình huống | Chuỗi skill |
+|---|---|---|
+| [01](../case-studies/01-nhan-du-an-khong-tai-lieu.md) | Nhận dự án không có tài liệu | `/improve-codebase-architecture` (khảo sát) → `/domain-modeling` → `/to-questionnaire` → ADR, chuẩn code, pointer → `/retro` |
+| [02](../case-studies/02-xay-san-pham-moi-tu-y-tuong.md) | Xây sản phẩm mới từ ý tưởng | `/wayfinder` → `/to-spec` → `/to-tickets` → `/implement-spec` |
+| [03](../case-studies/03-qa-tra-ve-loat-bug.md) | QA trả về một loạt bug cuối đợt | `/triage` (tracker local) → `/implement` hoặc `/diagnosing-bugs` → `/retro` |
+| [04](../case-studies/04-bug-chap-chon.md) | Bug chập chờn, chậm, không thấy nguyên nhân | `/diagnosing-bugs` (feedback loop trước, đoán sau) → `/retro` |
+| [05](../case-studies/05-refactor-module-cu.md) | Refactor module cũ | `/improve-codebase-architecture` → `/codebase-design` (thiết kế hai lần) → `/grill-with-docs` → main flow |
+| [06](../case-studies/06-change-request-mo-ho.md) | Change request mơ hồ, phải hỏi khách hàng hoặc BA | `/grill-with-docs` (PENDING) → `/to-questionnaire` → grill tiếp → `/to-spec` |
+| [07](../case-studies/07-chon-thu-vien-cong-nghe.md) | Chọn thư viện, công nghệ, đánh giá API bên thứ ba | `/research` → `/prototype` → `/grill-with-docs` → ADR |
+| [08](../case-studies/08-nang-cap-lon.md) | Nâng cấp lớn kéo dài nhiều phiên | `/wayfinder` → `/to-spec` → `/implement-spec` → `/wizard` cho cutover |
+| [09](../case-studies/09-tu-review-truoc-mr.md) | Tự review trước khi gửi MR | `/code-review <nhánh gốc>` → sửa → `/pr` kèm bảng AC |
+| [10](../case-studies/10-ban-giao-viec.md) | Bàn giao việc (phiên, công cụ, đồng nghiệp) | `/handoff` hoặc `/claude-handoff` |
+| [11](../case-studies/11-domain-la.md) | Vào dự án có domain lạ | `/teach` (thư mục riêng) + `/domain-modeling` (trên repo) |
+| [12](../case-studies/12-agent-lap-lai-loi.md) | Agent lặp đi lặp lại cùng một lỗi | `/retro` → check tự động, `CODING_STANDARDS.md`, pointer |
+| [13](../case-studies/13-viec-dinh-ky.md) | Thiết kế quy trình cho việc định kỳ | `/loop-me` → (build) main flow |
+| [14](../case-studies/14-viet-bai-noi-bo.md) | Viết bài chia sẻ hoặc tài liệu nội bộ | `/writing-fragments` → `/writing-shape` hoặc `/writing-beats` |
+
+> [!WARNING]
+> Một số skill tự ghi ra bên ngoài máy bạn. Nếu nhóm có quy định hạn chế, dặn agent ngay khi gọi:
+> - `/implement` và `/implement-spec` tự **commit**;
+> - `/wayfinder` **push** nhánh research;
+> - `/triage` và `/to-tickets` **ghi vào tracker**.
+
+---
+
+## 12. Đi tiếp
 
 - Tra cứu cả 38 skill, kiến trúc và các on-ramp khác: [tài liệu tham chiếu](./matt-pocock-skills.md).
 - Sau vài vòng, thử thêm:
