@@ -1,0 +1,24 @@
+installation:
+  version: 6.12.4
+  installDate: 2026-11-05T09:35:46.467Z
+  lastUpdated: 2026-11-05T09:35:46.467Z
+  installShims: false
+modules:
+  - name: core
+    version: 6.12.4
+    installDate: 2026-11-05T09:35:39.141Z
+    lastUpdated: 2026-11-05T09:35:46.367Z
+    source: built-in
+    npmPackage: null
+    repoUrl: null
+  - name: bmm
+    version: 6.12.4
+    installDate: 2026-11-05T09:35:44.521Z
+    lastUpdated: 2026-11-05T09:35:46.467Z
+    source: built-in
+    npmPackage: null
+    repoUrl: null
+ides:
+  - claude-code
+  - antigravity-cli
+  - kiro
