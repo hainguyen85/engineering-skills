@@ -1,0 +1,15 @@
+# Thư mục riêng của từng công cụ: không theo dõi
+.claude/
+.kiro/
+.gemini/
+.idea/
+
+.agents/
+
+# Đầu ra khi lỡ chạy skill trong repo này
+_bmad-output/
+
+# Cấu hình cá nhân của bộ cài BMAD (tên người dùng, ngôn ngữ)
+_bmad/config.user.toml
+_bmad/custom/config.user.toml
+_bmad/custom/*.user.toml
