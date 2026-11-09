@@ -6,7 +6,7 @@ Mỗi file là một **tình huống**: khi nào gặp, chuỗi skill, các bư�
 |---|---|
 | [01](01-danh-gia-cheo-y-tuong-bang-party-mode.md) | Đánh giá chéo một ý tưởng tính năng trước khi viết PRD |
 
-Tình huống đã có trong bộ Matt Pocock (bug từ QA, change request mơ hồ, domain lạ…): xem cách làm bằng BMAD ở [docs/case-study-matt-pocock-voi-bmad.md](../docs/case-study-matt-pocock-voi-bmad.md).
+Tình huống đã có trong bộ Matt Pocock (bug từ QA, change request mơ hồ, domain lạ…): xem cách làm bằng BMAD ở [docs/case-study-matt-pocock-voi-bmad.md (ở gốc repo)](../../docs/case-study-matt-pocock-voi-bmad.md).
 
 ## Ghi lại thực tế
 

@@ -1,6 +1,6 @@
 # BMAD Method: kiến trúc và workflow
 
-> Mới dùng lần đầu? Đọc [hướng dẫn nhập môn](./bmad-method-onboarding.md) trước; tài liệu này dùng để tra cứu. Phân vân giữa BMAD và bộ Matt Pocock? Xem [so sánh](./so-sanh-voi-matt-pocock.md).
+> Mới dùng lần đầu? Đọc [hướng dẫn nhập môn](./bmad-method-onboarding.md) trước; tài liệu này dùng để tra cứu. Phân vân giữa BMAD và bộ Matt Pocock? Xem [so sánh](../../docs/so-sanh-voi-matt-pocock.md).
 
 Tài liệu này mô tả [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) (tài liệu chính thức: <https://docs.bmad-method.org/>): bộ cài gồm những gì, các skill nối với nhau ra sao, dùng từng skill khi nào. Nội dung được rút ra từ chính các file `SKILL.md`, `customize.toml` và `_bmad/_config/bmad-help.csv` trong repo này.
 

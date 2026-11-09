@@ -1,6 +1,6 @@
 # Tra cứu BMAD Method
 
-Repo này dùng để tra cứu và hỏi đáp về [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD), bản 6.12.4. Không có code ứng dụng. Người đọc chính là PM và Techlead.
+Thư mục `bmad-method/` dùng để tra cứu và hỏi đáp về [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD), bản 6.12.4. Không có code ứng dụng. Người đọc chính là PM (Product Manager) và Techlead. Mọi đường dẫn dưới đây tính từ thư mục này.
 
 ## Nguồn sự thật
 
@@ -13,8 +13,8 @@ Repo này dùng để tra cứu và hỏi đáp về [BMAD Method](https://githu
 
 - `docs/bmad-method.md`: tài liệu tham chiếu, gồm kiến trúc, từng skill và nhật ký cập nhật (mục 8).
 - `docs/bmad-method-onboarding.md`: hướng dẫn nhập môn cho PM và Techlead.
-- `docs/so-sanh-voi-matt-pocock.md`: chọn giữa BMAD và bộ Matt Pocock. Mã nguồn bộ Matt Pocock nằm ở `D:\Workspace\study\matt-pocock-skills`.
-- `docs/case-study-matt-pocock-voi-bmad.md`: 14 case study của bộ Matt Pocock, mỗi cái làm bằng BMAD thế nào và chỗ nào vẫn giữ skill Matt. Người dùng kể một tình huống đã có trong bộ Matt thì đọc file này trước.
+- `../docs/so-sanh-voi-matt-pocock.md`: chọn giữa BMAD và bộ Matt Pocock. Mã nguồn và tài liệu bộ Matt Pocock nằm ở `../matt-pocock/`.
+- `../docs/case-study-matt-pocock-voi-bmad.md`: 14 case study của bộ Matt Pocock, mỗi cái làm bằng BMAD thế nào và chỗ nào vẫn giữ skill Matt. Người dùng kể một tình huống đã có trong bộ Matt thì đọc file này trước.
 - `case-studies/NN-*.md`: mỗi file một tình huống, cuối file là mục "Thực tế đã gặp". Danh sách trong `case-studies/README.md`.
 
 ## Cách trả lời

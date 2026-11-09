@@ -1,6 +1,6 @@
 # Bộ skill Matt Pocock: tra cứu và hỏi đáp
 
-Repo gom mã nguồn bộ skill [mattpocock/skills](https://github.com/mattpocock/skills) đã cài và các tài liệu tiếng Việt viết về nó. Dùng để:
+Thư mục này (trong repo [`engineering-skills`](../README.md)) gom mã nguồn bộ skill [mattpocock/skills](https://github.com/mattpocock/skills) đã cài và các tài liệu tiếng Việt viết về nó. Dùng để:
 
 - **tra cứu** một skill làm gì, gọi thế nào, nằm ở đâu trong flow;
 - **hỏi về tình huống thực tế**: kể bối cảnh, agent đề xuất cách ghép skill và đọc mã nguồn skill để trả lời;
@@ -11,8 +11,8 @@ Phiên bản skill: repo nguồn ngày 2026-10-31 (commit `4ae2317`), 37 skill. 
 ## Cấu trúc
 
 ```text
-.
-├── CLAUDE.md                  ← chỉ đường cho agent khi hỏi đáp trong repo này
+matt-pocock/
+├── CLAUDE.md                  ← chỉ đường cho agent khi hỏi về bộ Matt Pocock
 ├── docs/
 │   ├── matt-pocock-skills.md              ← tài liệu tham chiếu (cả 38 skill, kiến trúc, nhật ký cập nhật)
 │   ├── matt-pocock-skills-onboarding.md   ← hướng dẫn nhập môn, có case study
@@ -26,21 +26,12 @@ Phiên bản skill: repo nguồn ngày 2026-10-31 (commit `4ae2317`), 37 skill. 
 
 Gửi link tới [`docs/matt-pocock-skills-onboarding.md`](docs/matt-pocock-skills-onboarding.md). Tài liệu này liên kết sang tài liệu tham chiếu khi cần tra chi tiết.
 
-Phân vân giữa bộ này và BMAD Method (khi nào dùng cái nào, theo vai PM, Techlead, Dev): xem [`study/bmad-method/docs/so-sanh-voi-matt-pocock.md`](../bmad-method/docs/so-sanh-voi-matt-pocock.md).
-
-## Dùng với Claude
-
-**Claude Code** (trên máy hoặc trên web): mở repo, `CLAUDE.md` được nạp tự động. Hỏi thẳng, ví dụ: *"Tôi nhận một dự án không có tài liệu, nên bắt đầu thế nào?"*.
-
-**Project trên claude.ai:**
-
-1. Tạo project, thêm repo này làm knowledge (kết nối GitHub, hoặc tải lên thư mục `docs/`, `case-studies/` và `.agents/skills/`).
-2. Chép nội dung `CLAUDE.md` vào phần **Project instructions**.
-3. Khi repo thay đổi, đồng bộ lại knowledge của project.
+Phân vân giữa bộ này và BMAD Method (khi nào dùng cái nào, theo vai PM, Techlead, Dev): xem [`docs/so-sanh-voi-matt-pocock.md`](../docs/so-sanh-voi-matt-pocock.md) ở gốc repo.
 
 ## Cập nhật bộ skill
 
 ```bash
+cd matt-pocock
 npx skills@latest update -p -y   # cập nhật các skill đã có trong skills-lock.json
 git diff --stat .agents/skills   # xem skill nào đổi
 ```

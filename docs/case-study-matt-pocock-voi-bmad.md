@@ -1,6 +1,6 @@
 # Dùng 14 case study của bộ Matt Pocock với BMAD
 
-Đối chiếu từng [case study của bộ Matt Pocock](../../matt-pocock-skills/case-studies/README.md) với BMAD 6.12.4: BMAD có làm được không, làm thế nào, và chỗ nào vẫn nên giữ skill của Matt Pocock. Bối cảnh là Agile Scrum, vai Techlead, Kiro cho công việc (xem [so sánh](./so-sanh-voi-matt-pocock.md)).
+Đối chiếu từng [case study của bộ Matt Pocock](../matt-pocock/case-studies/README.md) với BMAD 6.12.4: BMAD có làm được không, làm thế nào, và chỗ nào vẫn nên giữ skill của Matt Pocock. Bối cảnh là Agile Scrum, vai Techlead, Kiro cho công việc (xem [so sánh](./so-sanh-voi-matt-pocock.md)).
 
 Như tài liệu so sánh, phần này **dựa trên mã nguồn, chưa chạy thử**.
 
@@ -191,7 +191,7 @@ Các tình huống này nên thành case study riêng của BMAD khi chạy th�
 
 | Tình huống | Skill |
 |---|---|
-| Đánh giá chéo ý tưởng trước khi viết PRD | [case study 01](../case-studies/01-danh-gia-cheo-y-tuong-bang-party-mode.md) |
+| Đánh giá chéo ý tưởng trước khi viết PRD | [case study 01](../bmad-method/case-studies/01-danh-gia-cheo-y-tuong-bang-party-mode.md) |
 | Thẩm định BRD/PRD do BA hoặc khách hàng gửi | `bmad-prd` ý định *validate* (báo cáo HTML), `bmad-review` lens `verification-gap` |
 | Cổng Definition of Ready trước Sprint Planning | `bmad-sprint-planning` ý định *readiness* |
 | Thay đổi phạm vi giữa sprint | `bmad-correct-course` |

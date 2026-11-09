@@ -1,6 +1,6 @@
 # BMAD Method và bộ Matt Pocock: khi nào dùng cái nào
 
-So sánh [BMAD Method](./bmad-method.md) 6.12.4 với [bộ skill Matt Pocock](../../matt-pocock-skills/docs/matt-pocock-skills.md) (repo nguồn 2026-10-31, commit `4ae2317`). Người đọc chính là PM (Product Manager) và Techlead, có thêm phần trả lời cho dev.
+So sánh [BMAD Method](../bmad-method/docs/bmad-method.md) 6.12.4 với [bộ skill Matt Pocock](../matt-pocock/docs/matt-pocock-skills.md) (repo nguồn 2026-10-31, commit `4ae2317`). Người đọc chính là PM (Product Manager) và Techlead, có thêm phần trả lời cho dev.
 
 **Cách làm:** đối chiếu mã nguồn `SKILL.md` của hai bộ. **Chưa chạy thử đối chứng** trên cùng một việc; chỗ nào là suy luận hoặc chưa kiểm chứng đều được ghi rõ. Khi có kết quả chạy thật, cập nhật vào case study và sửa tài liệu này.
 
@@ -75,7 +75,7 @@ Kết luận ngắn: **PM dùng BMAD. Techlead dùng BMAD cho kiến trúc và c
 
 Quy trình chuẩn của tài liệu này là **Agile Scrum**: backlog và sprint quản lý trên tracker của team; Techlead làm rõ requirement với customer và BA; story có AC; dev tạo MR, Techlead review.
 
-Cả hai bộ đều **không quản lý nhịp sprint**: không có sprint có thời hạn, ước lượng, velocity hay Scrum Master. Chúng là công cụ cho từng hoạt động trong sprint. Bảng đối chiếu từng hoạt động của BMAD nằm ở [mục 6 của onboarding](./bmad-method-onboarding.md#6-bmad-trong-agile-scrum).
+Cả hai bộ đều **không quản lý nhịp sprint**: không có sprint có thời hạn, ước lượng, velocity hay Scrum Master. Chúng là công cụ cho từng hoạt động trong sprint. Bảng đối chiếu từng hoạt động của BMAD nằm ở [mục 6 của onboarding](../bmad-method/docs/bmad-method-onboarding.md#6-bmad-trong-agile-scrum).
 
 | Hoạt động Scrum | BMAD | Matt Pocock |
 |---|---|---|

@@ -3,10 +3,9 @@
 .kiro/
 .gemini/
 .idea/
+# .agents/skills/ được theo dõi: đó là mã nguồn BMAD để tra cứu
 
-.agents/
-
-# Đầu ra khi lỡ chạy skill trong repo này
+# Đầu ra khi lỡ chạy skill trong thư mục này
 _bmad-output/
 
 # Cấu hình cá nhân của bộ cài BMAD (tên người dùng, ngôn ngữ)

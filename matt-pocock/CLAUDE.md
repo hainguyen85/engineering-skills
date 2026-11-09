@@ -1,6 +1,6 @@
 # Tra cứu bộ skill Matt Pocock
 
-Repo này dùng để tra cứu và hỏi đáp về bộ skill [mattpocock/skills](https://github.com/mattpocock/skills). Không có code ứng dụng.
+Thư mục `matt-pocock/` dùng để tra cứu và hỏi đáp về bộ skill [mattpocock/skills](https://github.com/mattpocock/skills). Không có code ứng dụng. Mọi đường dẫn dưới đây tính từ thư mục này. So sánh với BMAD Method: `../docs/so-sanh-voi-matt-pocock.md`.
 
 ## Nguồn sự thật
 

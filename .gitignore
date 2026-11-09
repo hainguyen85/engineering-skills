@@ -1,0 +1,8 @@
+# Cấu hình cá nhân của Claude Code
+.claude/settings.local.json
+
+# File tạm khi thử skill
+.scratch/
+
+# Đồ riêng của IDE
+.idea/

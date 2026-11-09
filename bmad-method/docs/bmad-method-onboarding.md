@@ -2,7 +2,7 @@
 
 Trong bộ tài liệu này, **PM là Product Manager** (vai John trong BMAD), không phải Project Manager. BMAD không có agent Project Manager riêng; phần theo dõi tiến độ nằm ở `bmad-sprint-planning` (status), `bmad-correct-course` và `bmad-retrospective`.
 
-Tài liệu này giúp PM và Techlead bắt đầu dùng [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) bản 6.12.4 trong khoảng một buổi. Cần tra chi tiết một skill thì xem [tài liệu tham chiếu](./bmad-method.md). Đang dùng bộ Matt Pocock và muốn biết nên chọn bộ nào thì xem [so sánh](./so-sanh-voi-matt-pocock.md).
+Tài liệu này giúp PM và Techlead bắt đầu dùng [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD) bản 6.12.4 trong khoảng một buổi. Cần tra chi tiết một skill thì xem [tài liệu tham chiếu](./bmad-method.md). Đang dùng bộ Matt Pocock và muốn biết nên chọn bộ nào thì xem [so sánh](../../docs/so-sanh-voi-matt-pocock.md).
 
 ---
 
@@ -37,7 +37,7 @@ Bộ cài hỏi:
 
 Sau khi cài, kiểm tra nhanh bằng cách gọi `bmad-help` (trong Claude Code: gõ `/bmad-help`).
 
-**Đặt BMAD ở đâu?** Mọi đầu ra nằm trong `_bmad-output/` của repo đang mở. PM và Techlead thường có một **repo tài liệu riêng** (không phải repo code) để chứa brief, PRD, kiến trúc. Cài BMAD vào repo đó là gọn nhất. Lý do nên tách khỏi repo code nằm ở [mục 5 của tài liệu so sánh](./so-sanh-voi-matt-pocock.md#5-kết-hợp-hai-bộ).
+**Đặt BMAD ở đâu?** Mọi đầu ra nằm trong `_bmad-output/` của repo đang mở. PM và Techlead thường có một **repo tài liệu riêng** (không phải repo code) để chứa brief, PRD, kiến trúc. Cài BMAD vào repo đó là gọn nhất. Lý do nên tách khỏi repo code nằm ở [mục 5 của tài liệu so sánh](../../docs/so-sanh-voi-matt-pocock.md#5-kết-hợp-hai-bộ).
 
 ---
 
@@ -215,7 +215,7 @@ Vì vậy, cách dùng hợp lý là: nhịp sprint, backlog chính thức và �
 | Sprint Retrospective | `bmad-retrospective` (theo epic, dựa trên bằng chứng) | Không khớp nhịp sprint; dùng khi xong một epic |
 | Đổi scope giữa sprint | `bmad-correct-course` | |
 
-So sánh mức khớp với Scrum giữa BMAD và bộ Matt Pocock: xem [mục 2.5 của tài liệu so sánh](./so-sanh-voi-matt-pocock.md#25-có-khớp-với-agile-scrum-không).
+So sánh mức khớp với Scrum giữa BMAD và bộ Matt Pocock: xem [mục 2.5 của tài liệu so sánh](../../docs/so-sanh-voi-matt-pocock.md#25-có-khớp-với-agile-scrum-không).
 
 ---
 
