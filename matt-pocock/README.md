@@ -26,6 +26,8 @@ Phiên bản skill: repo nguồn ngày 2026-10-31 (commit `4ae2317`), 37 skill. 
 
 Gửi link tới [`docs/matt-pocock-skills-onboarding.md`](docs/matt-pocock-skills-onboarding.md). Tài liệu này liên kết sang tài liệu tham chiếu khi cần tra chi tiết.
 
+Phân vân giữa bộ này và BMAD Method (khi nào dùng cái nào, theo vai PM, Techlead, Dev): xem [`study/bmad-method/docs/so-sanh-voi-matt-pocock.md`](../bmad-method/docs/so-sanh-voi-matt-pocock.md).
+
 ## Dùng với Claude
 
 **Claude Code** (trên máy hoặc trên web): mở repo, `CLAUDE.md` được nạp tự động. Hỏi thẳng, ví dụ: *"Tôi nhận một dự án không có tài liệu, nên bắt đầu thế nào?"*.
