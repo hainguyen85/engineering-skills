@@ -1,8 +1,21 @@
 # Cấu hình cá nhân của Claude Code
 .claude/settings.local.json
 
+# Symlink do skills CLI tạo khi cài hoặc cập nhật
+.claude/skills/
+
 # File tạm khi thử skill
 .scratch/
 
-# Đồ riêng của IDE
+# Thư mục riêng của từng công cụ và IDE: không theo dõi
+.kiro/
+.gemini/
 .idea/
+
+# Đầu ra khi lỡ chạy skill BMAD trong repo này
+_bmad-output/
+
+# Cấu hình cá nhân của bộ cài BMAD (tên người dùng, ngôn ngữ)
+_bmad/config.user.toml
+_bmad/custom/config.user.toml
+_bmad/custom/*.user.toml

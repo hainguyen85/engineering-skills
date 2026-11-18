@@ -1,11 +1,11 @@
 # Tra cứu bộ skill Matt Pocock
 
-Thư mục `matt-pocock/` dùng để tra cứu và hỏi đáp về bộ skill [mattpocock/skills](https://github.com/mattpocock/skills). Không có code ứng dụng. Mọi đường dẫn dưới đây tính từ thư mục này. So sánh với BMAD Method: `../docs/so-sanh-voi-matt-pocock.md`.
+Thư mục `matt-pocock/` chứa tài liệu và case study để tra cứu, hỏi đáp về bộ skill [mattpocock/skills](https://github.com/mattpocock/skills). Không có code ứng dụng. Mã nguồn skill nằm chung ở gốc repo (`../.agents/skills/`), không nằm trong thư mục này. Đường dẫn `docs/`, `case-studies/` tính từ thư mục này; đường dẫn `.agents/skills/` và `skills-lock.json` tính từ gốc repo. So sánh với BMAD Method: `../docs/so-sanh-voi-matt-pocock.md`.
 
 ## Nguồn sự thật
 
-- **Mã nguồn skill:** `.agents/skills/<tên>/SKILL.md` và các file nó liên kết. Phiên bản và hash nằm trong `skills-lock.json`. Trước khi khẳng định một skill làm gì, đọc `SKILL.md` của nó; tài liệu trong `docs/` có thể chậm hơn mã nguồn.
-- **Bản đồ flow** (skill nào cho tình huống nào): `.agents/skills/ask-matt/SKILL.md` và `PHASE-BOUNDARIES.md` cùng thư mục.
+- **Mã nguồn skill** (ở gốc repo): `../.agents/skills/<tên>/SKILL.md` và các file nó liên kết. Phiên bản và hash nằm trong `../skills-lock.json`. Skill của bộ này không có tiền tố `bmad-`. Trước khi khẳng định một skill làm gì, đọc `SKILL.md` của nó; tài liệu trong `docs/` có thể chậm hơn mã nguồn.
+- **Bản đồ flow** (skill nào cho tình huống nào): `../.agents/skills/ask-matt/SKILL.md` và `PHASE-BOUNDARIES.md` cùng thư mục.
 - Các skill ở đây chỉ để đọc. Không chạy chúng trong repo này, trừ khi người dùng yêu cầu.
 
 ## Tài liệu

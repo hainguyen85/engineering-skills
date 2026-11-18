@@ -1,19 +1,19 @@
 # Tra cứu BMAD Method
 
-Thư mục `bmad-method/` dùng để tra cứu và hỏi đáp về [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD), bản 6.12.4. Không có code ứng dụng. Người đọc chính là PM (Product Manager) và Techlead. Mọi đường dẫn dưới đây tính từ thư mục này.
+Thư mục `bmad-method/` chứa tài liệu và case study để tra cứu, hỏi đáp về [BMAD Method](https://github.com/bmad-code-org/BMAD-METHOD), bản 6.12.4. Không có code ứng dụng. Người đọc chính là PM (Product Manager) và Techlead. Mã nguồn skill và `_bmad/` nằm chung ở gốc repo, không nằm trong thư mục này. Đường dẫn `docs/`, `case-studies/` tính từ thư mục này; đường dẫn `.agents/skills/` và `_bmad/` tính từ gốc repo.
 
 ## Nguồn sự thật
 
-- **Mã nguồn skill:** `.agents/skills/bmad-<tên>/SKILL.md`, `customize.toml` và các file nó liên kết (`references/`, `steps/`, `assets/`). Trước khi khẳng định một skill làm gì, đọc `SKILL.md` của nó; tài liệu trong `docs/` có thể chậm hơn mã nguồn.
-- **Bản đồ flow** (phase, thứ tự, bước bắt buộc, đầu ra): `_bmad/_config/bmad-help.csv`. Persona và tên agent: `_bmad/config.toml`.
-- **Phiên bản:** `_bmad/_config/manifest.yaml`; hash từng file trong `_bmad/_config/files-manifest.csv`.
+- **Mã nguồn skill** (ở gốc repo): `../.agents/skills/bmad-<tên>/SKILL.md`, `customize.toml` và các file nó liên kết (`references/`, `steps/`, `assets/`). Trước khi khẳng định một skill làm gì, đọc `SKILL.md` của nó; tài liệu trong `docs/` có thể chậm hơn mã nguồn.
+- **Bản đồ flow** (phase, thứ tự, bước bắt buộc, đầu ra): `../_bmad/_config/bmad-help.csv`. Persona và tên agent: `../_bmad/config.toml`.
+- **Phiên bản:** `../_bmad/_config/manifest.yaml`; hash từng file trong `../_bmad/_config/files-manifest.csv`.
 - Các skill ở đây chỉ để đọc. Không chạy chúng trong repo này, trừ khi người dùng yêu cầu.
 
 ## Tài liệu
 
 - `docs/bmad-method.md`: tài liệu tham chiếu, gồm kiến trúc, từng skill và nhật ký cập nhật (mục 8).
 - `docs/bmad-method-onboarding.md`: hướng dẫn nhập môn cho PM và Techlead.
-- `../docs/so-sanh-voi-matt-pocock.md`: chọn giữa BMAD và bộ Matt Pocock. Mã nguồn và tài liệu bộ Matt Pocock nằm ở `../matt-pocock/`.
+- `../docs/so-sanh-voi-matt-pocock.md`: chọn giữa BMAD và bộ Matt Pocock. Tài liệu bộ Matt Pocock nằm ở `../matt-pocock/`, mã nguồn của nó chung ở `../.agents/skills/` (skill không có tiền tố `bmad-`).
 - `../docs/case-study-matt-pocock-voi-bmad.md`: 14 case study của bộ Matt Pocock, mỗi cái làm bằng BMAD thế nào và chỗ nào vẫn giữ skill Matt. Người dùng kể một tình huống đã có trong bộ Matt thì đọc file này trước.
 - `case-studies/NN-*.md`: mỗi file một tình huống, cuối file là mục "Thực tế đã gặp". Danh sách trong `case-studies/README.md`.
 
