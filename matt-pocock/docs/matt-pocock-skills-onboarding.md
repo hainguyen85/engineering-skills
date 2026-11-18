@@ -519,6 +519,7 @@ Gặp tình huống nào thì tra chuỗi skill ở đây. Chi tiết (các bư�
 | [12](../case-studies/12-agent-lap-lai-loi.md) | Agent lặp đi lặp lại cùng một lỗi | `/retro` → check tự động, `CODING_STANDARDS.md`, pointer |
 | [13](../case-studies/13-viec-dinh-ky.md) | Thiết kế quy trình cho việc định kỳ | `/loop-me` → (build) main flow |
 | [14](../case-studies/14-viet-bai-noi-bo.md) | Viết bài chia sẻ hoặc tài liệu nội bộ | `/writing-fragments` → `/writing-shape` hoặc `/writing-beats` |
+| [15](../case-studies/15-hoc-cong-nghe-moi-bang-teach.md) | Học một công nghệ mới nhiều phiên bằng `/teach` | `/teach` làm trục; `/grilling`, `/research`, `/domain-modeling`, `/wait-what`, `/wizard` hỗ trợ qua `AGENTS.md` |
 
 > [!WARNING]
 > Một số skill tự ghi ra bên ngoài máy bạn. Nếu nhóm có quy định hạn chế, dặn agent ngay khi gọi:

@@ -18,6 +18,7 @@ Mỗi file là một **tình huống**: khi nào gặp, chuỗi skill, các bư�
 | [12](12-agent-lap-lai-loi.md) | Agent lặp đi lặp lại cùng một lỗi |
 | [13](13-viec-dinh-ky.md) | Thiết kế quy trình cho việc định kỳ |
 | [14](14-viet-bai-noi-bo.md) | Viết bài chia sẻ hoặc tài liệu nội bộ |
+| [15](15-hoc-cong-nghe-moi-bang-teach.md) | Học một công nghệ mới nhiều phiên bằng `/teach` |
 
 ## Ghi lại thực tế
 
