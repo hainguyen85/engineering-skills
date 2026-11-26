@@ -37,9 +37,12 @@ Nếu có file `.agents/skills/<tên>/SKILL.md` thì đọc nó và làm theo; n
 - **Mission mơ hồ hoặc muốn đổi** (`MISSION.md` trống, hoặc tôi nói mục tiêu đã khác): dùng cách của `grilling`.
   Hỏi theo vòng; mỗi vòng hỏi hết các câu đã đủ điều kiện hỏi, đánh số, kèm đáp án bạn đề xuất,
   sao cho "đồng ý" là chấp nhận đề xuất. Xong khi không còn nhánh nào chưa hỏi.
-  Chỉ sửa `MISSION.md` sau khi tôi xác nhận, và ghi một learning record.
-- **Cần kiến thức mà `RESOURCES.md` chưa phủ**: dùng cách của `research`. Chạy một background agent với context mới,
-  đọc primary source (tài liệu chính thức, source code, spec), không đọc bài viết thứ cấp.
+  Chỉ sửa `MISSION.md` sau khi tôi xác nhận, và ghi một learning record (theo `teach`).
+  Chỉ dùng cho mission và quyết định lớn, không dùng cho câu hỏi nhỏ trong bài.
+- **Cần kiến thức mà `RESOURCES.md` chưa phủ**: dùng cách của `research`.
+  Chủ đề mới hoặc nhiều claim: chạy một background agent với context mới.
+  Kiểm tra nhỏ (một hai claim): tự đọc trực tiếp cũng được.
+  Cả hai cách đều chỉ đọc primary source (tài liệu chính thức, source code, spec), không đọc bài viết thứ cấp.
   Mỗi claim kèm nguồn. Kết quả vào `RESOURCES.md` theo `RESOURCES-FORMAT.md`; đừng dạy từ trí nhớ của bạn.
 - **Tôi dùng một thuật ngữ mới, mơ hồ hoặc dùng sai**: dùng cách của `domain-modeling`.
   Chỉ ra xung đột với `GLOSSARY.md`, đề xuất thuật ngữ chuẩn, đưa tình huống biên để tôi tự phân biệt.
