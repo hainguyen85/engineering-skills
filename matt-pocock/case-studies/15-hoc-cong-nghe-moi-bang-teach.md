@@ -22,9 +22,16 @@ Cài thêm `research`, `grilling`, `domain-modeling`, `wait-what`, `wizard` từ
 ### 2. Thêm khối vào `AGENTS.md`
 
 ```md
-## Skill hỗ trợ việc dạy
+## Skill chủ đạo: `teach`
 
-Thư mục này là workspace của `/teach`. Khi dạy, dùng thêm các kỹ thuật sau.
+Thư mục này là workspace của `/teach`. `teach` quyết định cách dạy: cấu trúc workspace, lesson, reference,
+learning record, vùng phát triển gần, quy tắc quiz, trích nguồn. Mọi buổi học đi theo `teach`.
+
+Các skill bên dưới chỉ hỗ trợ một khâu trong buổi học. Chúng không đổi cấu trúc, định dạng hay triết lý của `teach`.
+Nếu hai bên khác nhau thì `teach` thắng.
+
+## Skill phụ trợ (khi nào dùng)
+
 Nếu có file `.agents/skills/<tên>/SKILL.md` thì đọc nó và làm theo; nếu không thì làm theo phần tóm tắt ở đây.
 
 - **Mission mơ hồ hoặc muốn đổi** (`MISSION.md` trống, hoặc tôi nói mục tiêu đã khác): dùng cách của `grilling`.
@@ -44,9 +51,18 @@ Nếu có file `.agents/skills/<tên>/SKILL.md` thì đọc nó và làm theo; n
 - **Bước cài đặt chỉ tôi làm được** (tạo tài khoản, cài engine, mở dashboard, dựng cụm thật): dùng cách của `wizard`.
   Liệt kê các stage theo thứ tự cho tôi xác nhận, rồi sinh script bash dẫn từng bước, chạy được trong WSL.
   Đừng dùng cho việc bạn tự làm được.
+
+## Độ dài và độ sâu của lesson
+
+- Theo `teach`: mỗi bài có một chiến thắng cụ thể, nằm trong vùng phát triển gần, vừa với trí nhớ làm việc của tôi.
+- Ngắn không có nghĩa là mỏng. Một bài đủ phải có:
+  1. kiến thức tối thiểu để có kỹ năng đó, có trích nguồn;
+  2. thực hành có phản hồi tức thì (code hoặc cấu hình chạy được, quiz, thí nghiệm), không chỉ đọc;
+  3. một tình huống dễ sai cho thấy cấu hình hay cách làm nào xử lý được vấn đề nào (nếu `NOTES.md` ghi tôi thích kiểu này).
+- Nếu bài chứa quá nhiều khái niệm mới: tách thành hai bài, mỗi bài vẫn đủ các phần trên. Không bỏ phần thực hành để giữ bài ngắn.
 ```
 
-Chỉnh các dòng trong khối cho đúng ngôn ngữ và sở thích của bạn. Phần sở thích học (tiếng Việt, giữ thuật ngữ gốc, thích usecase "oái oăm") vẫn ở `NOTES.md` như `teach` quy định, không đưa vào `AGENTS.md`.
+Chỉnh các dòng trong khối cho đúng ngôn ngữ và sở thích của bạn. Phần sở thích học (tiếng Việt, giữ thuật ngữ gốc, thích usecase "oái oăm") vẫn ở `NOTES.md` như `teach` quy định; `AGENTS.md` chỉ trỏ tới nó, không chép lại.
 
 ### 3. Mỗi buổi học
 
@@ -67,4 +83,15 @@ Không cần gọi từng skill hỗ trợ: agent tự áp dụng theo `AGENTS.m
 
 ## Thực tế đã gặp
 
-_Chưa có._
+### 2026-11-26: Gắn năm skill hỗ trợ vào hai thư mục học (Kubernetes + Argo CD, Kafka)
+
+**Phiên bản skill:** `teach` bản 2026-10-31 (commit `4ae2317` của `mattpocock/skills`); năm skill hỗ trợ chép từ cùng bản trong repo này.
+
+- **Bối cảnh:** hai thư mục học riêng, mỗi thư mục một chủ đề, chỉ cài `teach`, chưa có `AGENTS.md`. Muốn các skill còn lại hỗ trợ việc học mà không phải nhớ gõ từng lệnh.
+- **Đã làm:** viết `AGENTS.md` gắn từng skill với một tín hiệu (mission mơ hồ, thiếu nguồn, thuật ngữ mới, "không hiểu", bước chỉ người làm được), kèm `CLAUDE.md` một dòng `@AGENTS.md`. Chép `grilling`, `research`, `domain-modeling`, `wait-what`, `wizard` vào cả `.agents/skills/` và `.claude/skills/`, rồi `diff` từng thư mục với bản gốc để chắc không lệch. Đổi `wait-what` từ tiếng Anh đơn giản (ASD-STE100) sang "câu ngắn, mỗi câu một ý" vì học bằng tiếng Việt. Sau đó người học tự sửa `AGENTS.md` của thư mục Kafka, thêm hai phần mới: **"Skill chủ đạo: `teach`"** (skill phụ chỉ hỗ trợ một khâu, hai bên khác nhau thì `teach` thắng) và **"Độ dài và độ sâu của lesson"** (ngắn không có nghĩa là mỏng: mỗi bài phải có kiến thức tối thiểu kèm nguồn, thực hành có phản hồi tức thì, và ít nhất một usecase "oái oăm").
+- **Kết quả:** cài và commit được; bản chép khớp bản gốc. **Chưa quan sát** agent tự gọi đúng skill theo `AGENTS.md` trong một buổi học thật, nên chưa biết các tín hiệu có kích hoạt đủ hay quá nhiều. Hai điểm lệch nhỏ: `skills-lock.json` của thư mục học không ghi năm skill chép tay; và `README` của thư mục học ghi đường dẫn nguồn skill tuyệt đối, bị lỗi thời khi repo này đổi cấu trúc (mã nguồn chuyển lên gốc).
+- **Bài học:**
+  - Bản `AGENTS.md` đầu tiên liệt kê skill phụ mà không nói skill nào là chủ đạo. Người học phải tự thêm quy tắc "`teach` thắng" và yêu cầu về độ sâu bài. Hai phần này đã được đưa vào khối mẫu ở mục Các bước (bước 2).
+  - Cần `CLAUDE.md` import `@AGENTS.md`, vì Claude Code không đọc `AGENTS.md`.
+  - Ghi nguồn chép skill bằng tên skill và commit, không bằng đường dẫn tuyệt đối; đường dẫn đổi là README sai.
+  - Việc cần làm tiếp: chạy một buổi học thật, ghi lại skill nào được gọi, lúc nào, rồi cập nhật mục này.
